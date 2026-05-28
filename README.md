@@ -10,9 +10,9 @@ This repository implements a lightweight, from-scratch **Facial Verification Eng
 The system is executed within a continuous machine learning cycle containing six main stages:
 
 ```text
- [1. Video Stream Ingestion] ➔ [2. Image Pipeline Preprocessing] ➔ [3. Shared Embedding Net]
+ [1. Video Stream Ingestion] --> [2. Image Pipeline Preprocessing] --> [3. Shared Embedding Net]
                                                                             │
- [6. Live OpenCV GUI Feed]  🦿   [5. Logistic Sigmoid Class] 🦿  [4. L1 Distance Computation]
+ [6. Live OpenCV GUI Feed]  <--   [5. Logistic Sigmoid Class] <--  [4. L1 Distance Computation]
 
 ```
 
